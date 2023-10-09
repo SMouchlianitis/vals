@@ -148,7 +148,7 @@ In other words, you can safely omit access from the CI to the secrets store.
 ### Go
 
 ```go
-import "github.com/helmfile/vals"
+import "github.com/SMouchlianitis/vals"
 
 secretsToCache := 256 // how many secrets to keep in LRU cache
 runtime, err := vals.New(secretsToCache)
@@ -192,9 +192,9 @@ Finally, the optional trailing `+` is the explit "end" of the expression. You us
 
 Although we mention the RFC for the sake of explanation, `PARAMS` and `FRAGMENT` might not be fully RFC-compliant as, under the hood, we use a simple regexp that seemed to work for most of use-cases.
 
-The regexp is defined as [DefaultRefRegexp](#https://github.com/helmfile/vals/blob/86bccbee4d5f430b7d24b2e3af781336767c0d35/pkg/expansion/expand_match.go#L15) in our code base.
+The regexp is defined as [DefaultRefRegexp](#https://github.com/SMouchlianitis/vals/blob/86bccbee4d5f430b7d24b2e3af781336767c0d35/pkg/expansion/expand_match.go#L15) in our code base.
 
-Please see the [relevant unit test cases](https://github.com/helmfile/vals/blob/main/pkg/expansion/expand_match_test.go) for exactly which patterns are supposed to work with `vals`.
+Please see the [relevant unit test cases](https://github.com/SMouchlianitis/vals/blob/main/pkg/expansion/expand_match_test.go) for exactly which patterns are supposed to work with `vals`.
 
 ## Supported Backends
 
@@ -215,7 +215,7 @@ Please see the [relevant unit test cases](https://github.com/helmfile/vals/blob/
 - [1Password Connect](#1password-connect)
 - [Doppler](#doppler)
 
-Please see [pkg/providers](https://github.com/helmfile/vals/tree/master/pkg/providers) for the implementations of all the providers. The package names corresponds to the URI schemes.
+Please see [pkg/providers](https://github.com/SMouchlianitis/vals/tree/master/pkg/providers) for the implementations of all the providers. The package names corresponds to the URI schemes.
 
 ### Vault
 

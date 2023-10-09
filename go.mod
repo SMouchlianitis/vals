@@ -1,6 +1,8 @@
-module github.com/helmfile/vals
+module github.com/SMouchlianitis/vals
 
-go 1.20
+go 1.21
+
+toolchain go1.21.2
 
 require (
 	cloud.google.com/go/secretmanager v1.11.1

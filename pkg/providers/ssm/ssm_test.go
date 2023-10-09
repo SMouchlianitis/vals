@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm/ssmiface"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/helmfile/vals/pkg/config"
-	"github.com/helmfile/vals/pkg/log"
+	"github.com/SMouchlianitis/vals/pkg/config"
+	"github.com/SMouchlianitis/vals/pkg/log"
 )
 
 type mockedSSM struct {

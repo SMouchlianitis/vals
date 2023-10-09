@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	config2 "github.com/helmfile/vals/pkg/config"
+	config2 "github.com/SMouchlianitis/vals/pkg/config"
 )
 
 func TestValues_SSM_String(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"github.com/getsops/sops/v3/decrypt"
 	"gopkg.in/yaml.v3"
 
-	"github.com/helmfile/vals/pkg/api"
-	"github.com/helmfile/vals/pkg/log"
+	"github.com/SMouchlianitis/vals/pkg/api"
+	"github.com/SMouchlianitis/vals/pkg/log"
 )
 
 type provider struct {

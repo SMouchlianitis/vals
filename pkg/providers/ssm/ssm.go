@@ -11,9 +11,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm/ssmiface"
 	"gopkg.in/yaml.v3"
 
-	"github.com/helmfile/vals/pkg/api"
-	"github.com/helmfile/vals/pkg/awsclicompat"
-	"github.com/helmfile/vals/pkg/log"
+	"github.com/SMouchlianitis/vals/pkg/api"
+	"github.com/SMouchlianitis/vals/pkg/awsclicompat"
+	"github.com/SMouchlianitis/vals/pkg/log"
 )
 
 type provider struct {

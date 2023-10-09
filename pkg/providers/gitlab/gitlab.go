@@ -11,7 +11,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/helmfile/vals/pkg/api"
+	"github.com/SMouchlianitis/vals/pkg/api"
 )
 
 type gitlabSecret struct {

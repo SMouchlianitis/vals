@@ -3,17 +3,17 @@ package stringmapprovider
 import (
 	"fmt"
 
-	"github.com/helmfile/vals/pkg/api"
-	"github.com/helmfile/vals/pkg/log"
-	"github.com/helmfile/vals/pkg/providers/awskms"
-	"github.com/helmfile/vals/pkg/providers/awssecrets"
-	"github.com/helmfile/vals/pkg/providers/azurekeyvault"
-	"github.com/helmfile/vals/pkg/providers/doppler"
-	"github.com/helmfile/vals/pkg/providers/gcpsecrets"
-	"github.com/helmfile/vals/pkg/providers/onepasswordconnect"
-	"github.com/helmfile/vals/pkg/providers/sops"
-	"github.com/helmfile/vals/pkg/providers/ssm"
-	"github.com/helmfile/vals/pkg/providers/vault"
+	"github.com/SMouchlianitis/vals/pkg/api"
+	"github.com/SMouchlianitis/vals/pkg/log"
+	"github.com/SMouchlianitis/vals/pkg/providers/awskms"
+	"github.com/SMouchlianitis/vals/pkg/providers/awssecrets"
+	"github.com/SMouchlianitis/vals/pkg/providers/azurekeyvault"
+	"github.com/SMouchlianitis/vals/pkg/providers/doppler"
+	"github.com/SMouchlianitis/vals/pkg/providers/gcpsecrets"
+	"github.com/SMouchlianitis/vals/pkg/providers/onepasswordconnect"
+	"github.com/SMouchlianitis/vals/pkg/providers/sops"
+	"github.com/SMouchlianitis/vals/pkg/providers/ssm"
+	"github.com/SMouchlianitis/vals/pkg/providers/vault"
 )
 
 func New(l *log.Logger, provider api.StaticConfig) (api.LazyLoadedStringMapProvider, error) {

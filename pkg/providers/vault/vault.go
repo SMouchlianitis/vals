@@ -9,8 +9,8 @@ import (
 
 	vault "github.com/hashicorp/vault/api"
 
-	"github.com/helmfile/vals/pkg/api"
-	"github.com/helmfile/vals/pkg/log"
+	"github.com/SMouchlianitis/vals/pkg/api"
+	"github.com/SMouchlianitis/vals/pkg/log"
 )
 
 const (
